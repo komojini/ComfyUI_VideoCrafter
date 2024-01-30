@@ -12,7 +12,7 @@ from pytorch_lightning import seed_everything
 
 from funcs import load_model_checkpoint, load_prompts, load_image_batch, get_filelist, save_videos
 from funcs import batch_ddim_sampling
-from utils.utils import instantiate_from_config
+from video_crafter_utils.utils import instantiate_from_config
 
 
 def get_parser():
